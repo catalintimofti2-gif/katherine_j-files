@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katherine Johnson | La Leggenda della Matematica Spaziale</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="stars-container"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <i class="fas fa-calculator"></i> K. JOHNSON
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#timeline-interactive">Timeline</a></li>
+            <li><a href="#imprese">Imprese</a></li>
+            <li><a href="#sfide">Sfide</a></li>
+            <li><a href="#eredita">Eredità</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">MATEMATICA • SCIENZA • GIUSTIZIA</p>
+            <h1 class="hero-title">Katherine Johnson</h1>
+            <p class="hero-description">La mente che calcolò le rotte verso le stelle</p>
+            <div class="quote-hero">
+                <i class="fas fa-quote-left"></i>
+                <p>"Contavo tutto. Contavo i passi verso la strada, i passi verso la chiesa, il numero di piatti e posate che lavavo. Questo è quello che faccio."</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <a href="#biografia" class="cta-button">Scopri la sua storia</a>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Sezione Biografia Rapida -->
+    <section id="biografia" class="quick-bio reveal">
+        <div class="container">
+            <div class="bio-grid">
+                <div class="bio-card">
+                    <div class="bio-icon"><i class="fas fa-birthday-cake"></i></div>
+                    <h3>Nascita</h3>
+                    <p><strong>26 agosto 1918</strong><br>White Sulphur Springs, West Virginia</p>
+                </div>
+                <div class="bio-card">
+                    <div class="bio-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Educazione</h3>
+                    <p>Laureata in <strong>Matematica</strong> a soli 18 anni<br>Università dello Stato della Virginia Occidentale</p>
+                </div>
+                <div class="bio-card">
+                    <div class="bio-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Carriera</h3>
+                    <p><strong>1953-1986</strong><br>NASA NACA - Calcolatrice Umana</p>
+                </div>
+                <div class="bio-card">
+                    <div class="bio-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Eredità</h3>
+                    <p>Scomparsa: <strong>20 febbraio 2020</strong><br>A 101 anni</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Katherine Johnson Portrait Section -->
+    <section class="portrait-section reveal">
+        <div class="container">
+            <div class="portrait-grid">
+                <div class="portrait-content">
+                    <h2>Un Genio Riconosciuto</h2>
+                    <p>Katherine Johnson è stata una figura straordinaria nella storia della scienza americana. Con i suoi calcoli matematici di precisione assoluta, ha contribuito a definire il corso della corsa allo spazio durante la Guerra Fredda.</p>
+                    <p>La sua dedizione, il suo ingegno e la sua determinazione nel superare le barriere della discriminazione razziale e di genere la rendono un simbolo di speranza e di eccellenza.</p>
+                    <ul class="portrait-stats">
+                        <li><strong>1937:</strong> Laurea in Matematica</li>
+                        <li><strong>1953:</strong> Inizio alla NACA</li>
+                        <li><strong>1961-1969:</strong> Contributi ai programmi Mercury e Apollo</li>
+                        <li><strong>2015:</strong> Medaglia Presidenziale della Libertà</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Interattiva Principale -->
+    <section id="timeline-interactive" class="timeline-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cronologia della Sua Vita</h2>
+                <p>Dai primi anni agli straordinari successi nello spazio</p>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="interactive-timeline">
+                <!-- Timeline items -->
+                <div class="timeline-node" data-year="1918">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>1918: Nascita</h3>
+                        <p>Katherine Goble nasce a White Sulphur Springs in una famiglia che valorizza l'educazione.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1937">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>1937: Laurea in Matematica</h3>
+                        <p>A soli 18 anni si laurea con lode. La sua passione per i numeri era già evidente.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1939">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>1939: Insegnamento</h3>
+                        <p>Inizia a insegnare matematica e francese in una scuola per studenti neri.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1953">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>1953: NACA - Inizio</h3>
+                        <p>Katherine si unisce al Langley Research Center della NACA come "calcolatrice umana".</p>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1961">
+                    <div class="timeline-marker highlight"></div>
+                    <div class="timeline-popup">
+                        <h3>1961: Progetto Mercury - Alan Shepard</h3>
+                        <p>Calcola la traiettoria per il primo volo spaziale americano. Alan Shepard vola per 15 minuti.</p>
+                        <span class="achievement-badge">🌟 Primo Successo Spaziale</span>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1962">
+                    <div class="timeline-marker highlight"></div>
+                    <div class="timeline-popup">
+                        <h3>1962: Friendship 7 - John Glenn</h3>
+                        <p>John Glenn non si fida dei computer IBM. Chiede esplicitamente i calcoli manuali di Katherine per l'orbita terrestre.</p>
+                        <span class="achievement-badge">⭐ Fiducia Totale</span>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1969">
+                    <div class="timeline-marker highlight"></div>
+                    <div class="timeline-popup">
+                        <h3>1969: Apollo 11 - Sulla Luna</h3>
+                        <p>I suoi calcoli precisissimi guidano Neil Armstrong e Buzz Aldrin sulla Luna e garantiscono il ritorno sicuro.</p>
+                        <span class="achievement-badge">🚀 L'Uomo sulla Luna</span>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="1986">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>1986: Pensionamento</h3>
+                        <p>Katherine si ritira dalla NASA dopo 33 anni di servizio straordinario.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="2016">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>2016: Riconoscimento Pubblico</h3>
+                        <p>La sua storia viene raccontata nel film "Il Diritto di Contare" (Hidden Figures, 2016). Riceve la Medaglia Presidenziale della Libertà.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-node" data-year="2020">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-popup">
+                        <h3>2020: Scomparsa</h3>
+                        <p>Katherine Johnson muore il 20 febbraio 2020 all'età di 101 anni. La sua eredità rimane immortale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Imprese Dettagliate -->
+    <section id="imprese" class="achievements reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Imprese e Contributi Spaziali</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🛸</div>
+                    <h3>Progetto Mercury (1961-1962)</h3>
+                    <p><strong>Alan Shepard & Gus Grissom</strong></p>
+                    <p>Katherine calcolò le traiettorie per i primi voli spaziali americani, garantendo il successo di questa missione storica.</p>
+                    <ul>
+                        <li>✓ Calcoli di balistica orbitale</li>
+                        <li>✓ Traiettorie di risalita</li>
+                        <li>✓ Parametri di sicurezza</li>
+                    </ul>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🌍</div>
+                    <h3>Friendship 7 (1962)</h3>
+                    <p><strong>John Glenn - Primo Americano in Orbita</strong></p>
+                    <p>John Glenn insistette personalmente per avere i calcoli verificati da Katherine prima della sua orbita.</p>
+                    <ul>
+                        <li>✓ Verifica orbita geocentrica</li>
+                        <li>✓ Calcoli anti-gravità</li>
+                        <li>✓ Parametri di rientro</li>
+                    </ul>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🌙</div>
+                    <h3>Progetto Apollo (1961-1969)</h3>
+                    <p><strong>Verso la Luna e Ritorno</strong></p>
+                    <p>Katherine contribuì ai calcoli critici per tutte le missioni Apollo, incluso il storico Apollo 11.</p>
+                    <ul>
+                        <li>✓ Traiettorie lunari</li>
+                        <li>✓ Aggancio orbitale</li>
+                        <li>✓ Rientro sicuro sulla Terra</li>
+                    </ul>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">📊</div>
+                    <h3>Geometria Analitica</h3>
+                    <p><strong>Metodologie Computazionali</strong></p>
+                    <p>Sviluppò algoritmi rivoluzionari per il calcolo di traiettorie complesse usando la geometria analitica.</p>
+                    <ul>
+                        <li>✓ Equazioni differenziali</li>
+                        <li>✓ Calcoli di velocità</li>
+                        <li>✓ Precisione balistica</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Sfide e Discriminazione -->
+    <section id="sfide" class="challenges reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Le Sfide Affrontate</h2>
+                <p>Coraggio, dignità e determinazione</p>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="challenges-grid">
+                <div class="challenge-card">
+                    <div class="challenge-icon">✊</div>
+                    <h3>Segregazione Razziale</h3>
+                    <p>Negli anni '50 e '60, Katherine lavorava in un ambiente segregato. Aveva uffici separati, bagni separati, e accesso limitato alle strutture.</p>
+                    <p><em>"Non ho mai lasciato che il pregiudizio mi impedisse di fare il mio lavoro."</em></p>
+                </div>
+
+                <div class="challenge-card">
+                    <div class="challenge-icon">👩‍💼</div>
+                    <h3>Discriminazione di Genere</h3>
+                    <p>In un'industria dominata da uomini, Katherine dovette provare costantemente il suo valore attraverso l'eccellenza assoluta.</p>
+                    <p>Ricevette comunque stipendi inferiori rispetto ai colleghi maschi per anni.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <div class="challenge-icon">🎓</div>
+                    <h3>Accesso all'Educazione</h3>
+                    <p>In West Virginia, le scuole per studenti neri offrivano risorse molto limitate. Katherine e i suoi fratelli dovevano viaggiare 120 miglia per l'high school.</p>
+                    <p>Nonostante ciò, eccelleva in tutti gli insegnamenti.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <div class="challenge-icon">🔬</div>
+                    <h3>Riconoscimento Professionale</h3>
+                    <p>I suoi contributi furono spesso attribuiti ai colleghi o semplicemente ignorati nei documenti ufficiali.</p>
+                    <p>Per decenni, il mondo non conobbe il suo nome e il suo ruolo cruciale.</p>
+                </div>
+            </div>
+
+            <div class="quote-section">
+                <blockquote>
+                    <p>"La scienza non ha confini di razza, genere o colore. La matematica è universale."</p>
+                    <footer>— Katherine Johnson</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Eredità e Impatto -->
+    <section id="eredita" class="legacy reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>L'Eredità di Katherine Johnson</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="legacy-content">
+                <div class="legacy-text">
+                    <h3>Un Cambio Che Continua</h3>
+                    <p>Katherine Johnson non ha solo calcolato orbite per le missioni spaziali; ha tracciato la rotta per generazioni di scienziate, ingegnere e matematiche di colore.</p>
+                    
+                    <h4>Impatto Duraturo:</h4>
+                    <ul class="legacy-list">
+                        <li><strong>Educazione Scientifica:</strong> Ha ispairato milioni di ragazze e ragazzi a perseguire carriere STEM</li>
+                        <li><strong>Diritti Civili:</strong> La sua storia è diventata simbolo della lotta per l'uguaglianza nei luoghi di lavoro</li>
+                        <li><strong>Visibilità Storica:</strong> Il film "Hidden Figures" (2016) ha finalmente raccontato il suo contributo al mondo</li>
+                        <li><strong>Cambiamento Istituzionale:</strong> La NASA e altre agenzie riconoscono ora l'importanza della diversità e dell'inclusione</li>
+                    </ul>
+
+                    <h4>Onori e Riconoscimenti:</h4>
+                    <ul class="legacy-list">
+                        <li>🎖️ Medaglia Presidenziale della Libertà (2015) - Massimo onore civile USA</li>
+                        <li>🌟 Dottore Onorario - Numerose Università</li>
+                        <li>📺 Protagonista del film "Hidden Figures" (2016)</li>
+                        <li>🏛️ Statua al Virginia Science Museum</li>
+                        <li>🎓 Numerosi premi STEM per giovani donne</li>
+                    </ul>
+
+                    <div class="legacy-stats">
+                        <div class="stat-card">
+                            <h4>33</h4>
+                            <p>Anni di servizio presso la NASA</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>101</h4>
+                            <p>Anni vissuti (1918-2020)</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>∞</h4>
+                            <p>Vite ispirate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Curiosità -->
+    <section class="curiosities reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Curiosità su Katherine</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="curiosities-grid">
+                <div class="curiosity-card">
+                    <h3>🎵 Appassionata di Musica</h3>
+                    <p>Katherine era una pianista talentuosa e amava la musica classica nel tempo libero.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <h3>👨‍👩‍👧 Vita Familiare</h3>
+                    <p>Sposata tre volte, ebbe tre figlie. Bilancia perfettamente la carriera e la famiglia.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <h3>📚 Lettrice Vorace</h3>
+                    <p>Leggeva costantemente e mantenne una biblioteca personale impressionante.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <h3>🗣️ Oratrice Ispirante</h3>
+                    <p>Negli ultimi anni di vita, tenne discorsi in università e conferenze, ispirando giovani generazioni.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <h3>🏫 Donne in STEM</h3>
+                    <p>Supportò attivamente programmi per aumentare la partecipazione delle donne nella scienza.</p>
+                </div>
+
+                <div class="curiosity-card">
+                    <h3>💻 Adattabilità</h3>
+                    <p>Passò dal calcolo manuale ai computer IBM con straordinaria facilità, dominando entrambi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chatbot Interface -->
+    <div id="ai-chat-trigger">
+        <div class="chat-icon">✨</div>
+        <span>Chiedi a Katherine AI</span>
+    </div>
+
+    <div id="chat-window">
+        <div class="chat-header">
+            <h3>💬 Katherine AI Assistant</h3>
+            <span id="close-chat">×</span>
+        </div>
+        <div id="chat-messages">
+            <div class="bot-msg">
+                <div class="bot-message-content">
+                    <p>Ciao! 👋 Sono un'interfaccia AI dedicata a Katherine Johnson.</p>
+                    <p>Puoi chiedermi di:</p>
+                    <ul class="chat-suggestions">
+                        <li>• La sua vita e biografia</li>
+                        <li>• Le missioni spaziali (Mercury, Gemini, Apollo)</li>
+                        <li>• Le sfide che ha affrontato</li>
+                        <li>• I suoi riconoscimenti</li>
+                        <li>• Curiosità personali</li>
+                    </ul>
+                    <p>Cosa vorresti sapere?</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Scrivi una domanda..." autocomplete="off">
+            <button id="send-btn">Invia</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Katherine Johnson Memorial Website | Celebrando una leggenda della scienza</p>
+            <p>Realizzato con <span style="color: #c5a059;">❤️</span> per ricordare una pioniera straordinaria</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
